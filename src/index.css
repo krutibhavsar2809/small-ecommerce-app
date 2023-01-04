@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1 {
+  flex: 1;
+}
+
+.col2 {
+  flex: 2;
+}
+
+.box {
+  background-color: antiquewhite;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.row.center {
+  align-items: center;
+}
+
+.floatLeft {
+  text-align: left;
+}
+
+.floatRight {
+  text-align: right;
+}
+
+.alignRight {
+  float: right;
+}
+
+.alignLeft {
+  float: left;
+}
+
+.product {
+  margin: 0.5rem;
+  float: left;
+  min-height: 17rem;
+  width: 9rem;
+}
+
+.info {
+  color:blue;
+  font-size: 0.7rem;
+}
+
+.margin {
+  margin: 0.5rem;
+}
+
+.marginTopBottom {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.marginLeftRight {
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.listview {
+  min-height: 10rem;
+}
+
+.img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.cartCount {
+  background-color: deepskyblue;
+  padding: 0.5rem;
+  border: 1px solid deepskyblue;
+  border-radius: 38px;
+  font-size: 0.9rem;
+}
